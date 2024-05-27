@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+   /* background-color: #e6ecd5;*/
+}
+.container-fluid .carousel-item img{
+    width: 100% auto;
+    height: 550px;
+}
+.container-fluid h1{
+    background-color:#35412b;;
+    height: 100px;
+    font-family: Impact, 'sans-serif';
+    font-style:oblique;
+    text-align: center;
+}
+h1{
+    padding-top: 25px;
+    color: white;
+    word-spacing: 0.8rem;
+    border-bottom: 5px solid white;
+    
+}
+/*-------------------Contenido----------------------*/
+.contenido{
+    margin-top: 50px;
+}
+.contenido .container h4{
+    color:rgb(68, 53, 8);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 1.5em;
+    word-spacing: 0.9rem;
+    line-height: 1.5;
+}
+/*---------------------------------------------------------------*/
+#info{
+    background-color:#969359;
+    height: auto;
+}
+
+#info .container {
+    padding-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+#info .container h3{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 3em;
+}
+.contenido .container .ante{
+    color:rgb(68, 53, 8);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 1.5em;
+    word-spacing: 0.9rem;
+    line-height: 1.5;
+
+}
+.img {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between; /* paradistribuirá las imágenes horizontalmente con un espacio igual entre ellas */
+    flex-wrap: wrap; /* Si tengo muchas imágenes y no caben en una línea, las envolverá a la siguiente línea */
+}
+.img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    box-shadow: 0 4px 15px #676660;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/*-------------------------------------------------FOOTER-------------------------------*/
+footer .container-fluid{
+    margin-top: 100px;
+    background-color:#35412b;
+    width: 100% auto;
+    height: 100px;
+    display: flex;
+}
+footer p{
+    color: #DFEBBA;
+    align-content: end;
+    padding-left: 15px;
+}
+
+

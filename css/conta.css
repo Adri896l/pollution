@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*----------------------------------Texto encabezado--------------------------*/
+.dat .container-fluid p{
+    background-color: darkslategrey;
+    height: auto;
+    border-left: 10px solid #53ddcd;
+    font-size: 1.2em;
+    padding: 15px 10px;
+    text-align:left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+/*--------------------------------------------MAIN-----------------------------------*/
+.text-img{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+.text-img img{
+    max-width: 70%;
+    height: auto;
+    margin-left: 50px;
+}
+.text-img .text{
+    max-width: 60%;
+    border-left: 3px solid black;
+    padding: 20px;
+    text-align: justify;
+    word-spacing: 0.5rem;
+    font-size: 1.2em;
+}
+main .container p{
+    word-spacing: 0.8rem;
+}
+
+
+
+
+
+
+
+
