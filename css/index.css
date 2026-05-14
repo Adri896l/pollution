@@ -1,0 +1,56 @@
+/* Sección Hero */
+.text-1 {
+    background: rgba(75, 76, 44, 0.338);
+}
+.hero-section h1 {
+    color: var(--blanco);
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.bg-light-custom {
+    background-color: var(--claro) !important;
+    color: var(--oscuro);
+}
+
+/* Cards */
+#info {
+    background-color: var(--claro);
+    padding: 60px 0;
+}
+
+#info h3 {
+    color: var(--oscuro);
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    
+    background-color: var(--claro);
+
+}
+
+.card-title {
+    color: var(--oscuro);
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: var(--lima);
+    color: var(--claro);
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: var(--medio);
+    color: var(--claro);
+}
+
+.ayuda-section {
+    background-color: var(--oscuro) !important;
+    color: var(--claro);
+}
+
+.ayuda-section i {
+    color: var(--lima);
+}

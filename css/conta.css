@@ -1,33 +1,3 @@
-:root {
-    --oscuro: #4b4c2c;
-    --medio: #797641;
-    --lima: #9fa659;
-    --claro: #ffffff;
-}
-
-/* general */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--claro);
-    color: #333;
-    line-height: 1.6;
-}
-
-/* NAVBAR */
-.navbar {
-    background-color: var(--medio) !important;
-}
-
-.navbar .navbar-brand, 
-.navbar .nav-link {
-    color: var(--claro) !important;
-    font-weight: 500;
-}
-
-.navbar .nav-link.active {
-    border-bottom: 2px solid var(--lima);
-}
-
 /*  HERO */
 .dat {
     background: linear-gradient(rgba(75, 76, 44, 0.85), rgba(75, 76, 44, 0.85)),
@@ -152,13 +122,6 @@ body {
 
 .card-text {
     font-size: 0.95rem;
-}
-
-/*  FOOTER  */
-footer {
-    background-color: #0d2b18 !important; 
-    color: var(--claro) !important;
-    border-top: 4px solid var(--lima);
 }
 
 /*  RESPONSIVE */

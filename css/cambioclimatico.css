@@ -1,42 +1,113 @@
-body{
-    padding: 0;
-    margin: 0;
-}
-#con {
-    margin-top: 20px
-}
-#con p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    word-spacing: 0.9rem;
-    font-size: 1.2em;
+section {
+    padding: 80px 0; 
 }
 
-#in .container{
-    margin-top: 50px;
-    padding: 0;
-    height: 200px;
-    margin-bottom: 50px;
-    background-color: rgba(50, 48, 48, 0.844);
+h1, h2, h3, h5 {
+    color: var(--oscuro);
+    font-weight: 700;
 }
-.list-group{
-    border-radius: 0;
-    max-width: 100%;
+
+/* Banner */
+.banner img {
+    object-fit: cover;
+    width: 100%;
 }
-.list-group-item{
-    background-color: rgba(50, 48, 48, 0.844);
-    color: peru;
-    border:none;
-    height: 50px;
-    padding-top: 6px;
+
+.quote-container {
+    background-color: var(--oscuro);
+    color: var(--claro);
+    padding: 50px 0;
+    border-bottom: 8px solid var(--lima);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-.col-8{
-    display: flex;
-    align-items: center;
-    color: rgb(245, 243, 242);
+
+.quote-container strong {
+    font-size: 1.8rem;
+    color: var(--lima);
+    display: block;
+    margin-bottom: 10px;
 }
-.col-8 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 50px;
-    word-spacing: 0.8rem;
-    text-align: center;
+
+/* Sección de Causas */
+#in .container {
+    background: var(--claro);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(75, 76, 44, 0.1); 
+    border: 1px solid rgba(159, 166, 89, 0.2);
+}
+
+/* Lista lateral */
+.list-group-item {
+    border: none;
+    padding: 25px 20px;
+    font-weight: 600;
+    color: var(--medio);
+    background-color: transparent;
+    transition: all 0.3s ease;
+    border-left: 5px solid transparent;
+}
+
+.list-group-item:hover {
+    background-color: var(--claro);
+    color: var(--oscuro);
+}
+
+.list-group-item.active {
+    background-color: var(--claro);
+    color: var(--oscuro);
+    border-left: 5px solid var(--lima);
+}
+
+.tab-content {
+    padding: 40px;
+}
+
+.tab-pane p {
+    font-size: 1.15rem;
+    color: var(--oscuro);
+    line-height: 1.8;
+}
+
+/* Tarjetas */
+.impact-card {
+    background: var(--claro);
+    border: none;
+    border-radius: 15px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 3px solid var(--lima);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    height: 25vh;
+}
+
+.impact-card h5 {
+    margin-bottom: 20px;
+}
+
+.impact-card ul li {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Sección Video */
+#video {
+    background-color: var(--oscuro);
+}
+
+#video h2 {
+    color: var(--lima);
+}
+
+video {
+    border-radius: 15px;
+    border: 3px solid var(--medio);
+}
+
+/*  RESPONSIVE */
+@media (max-width: 768px) {
+    .impact-card {
+        margin: 10px;
+        height: 30vh;
+    }
 }
