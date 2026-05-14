@@ -1,7 +1,7 @@
 /*  HERO */
 .dat {
     background: linear-gradient(rgba(75, 76, 44, 0.85), rgba(75, 76, 44, 0.85)),
-                url('../img/co1.jpg') no-repeat center/cover;
+                url('../img/co1.webp') no-repeat center/cover;
     color: var(--claro);
     padding: 100px 0;
     text-align: center;
