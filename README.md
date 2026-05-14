@@ -11,6 +11,7 @@ Este proyecto fue desarrollado utilizando tecnologías web modernas:
 - **HTML5**: Estructura básica del sitio.
 - **CSS3**: Estilos personalizados para darle un toque único.
 - **Bootstrap 5**: Framework que facilita el desarrollo de una página responsive y atractiva.
+- **JavaScript**: Reutilización de componentes dinámicos como el header y footer.
 
 ## 💡 Características del Proyecto
 
@@ -20,15 +21,20 @@ La página es completamente adaptable a dispositivos móviles, tabletas y escrit
 ### 🎠 **Carrusel de Imágenes**  
 Disfruta de un carrusel de imágenes con información relevante sobre el cambio climático, la contaminación y más.
 
-### 📚 **Tarjetas Informativas**  
-Cada sección del sitio contiene tarjetas informativas que te permiten explorar los datos más impactantes sobre el medio ambiente.
+### ♻️ **Componentes Reutilizables**
+El proyecto implementa componentes reutilizables para:
+- Header
+- Footer
+
+### 🎨 **Variables CSS y Estilos Globales**
+Se implementó una estructura de estilos globales utilizando variables CSS para mantener consistencia visual y facilitar futuras modificaciones.
+
 
 ## 🖥️ **Cómo ver el Proyecto**
 
-1. Clona este repositorio en tu máquina local.
-2. Abre el archivo `index.html` en tu navegador.
+Puedes visitar el proyecto aquí:
 
-¡Listo! Podrás disfrutar de este proyecto directamente en tu computadora.
+🔗 https://econciencia.netlify.app/
 
 
 ## 🔗 Enlaces de interés
